@@ -27,8 +27,8 @@ data_3_noRandom_odd = data_generator.gaussian_fit(sigma=testing_sigma, numOfPara
 
 data_4_Random_odd = data_generator.gaussian_fit(sigma=testing_sigma, numOfParameters=5, mean_width=0.1, rand=True)
 
-# assert(np.std(data_1_noRandom_even) == testing_sigma)
-print(np.std(data_1_noRandom_even))
+assert(np.std(data_1_noRandom_even) == testing_sigma)
+print(np.std(data_2_Random_even))
 print(testing_sigma)
 # assert(np.std(data_2_Random_even) == testing_sigma)
 # assert(np.std(data_3_noRandom_odd) == testing_sigma)
