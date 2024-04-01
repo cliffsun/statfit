@@ -1,3 +1,0 @@
-1. Implement random and non-random algorithms
-
-2. Double check derivations and make sure I know how to get to that point
